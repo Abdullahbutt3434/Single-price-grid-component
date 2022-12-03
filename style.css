@@ -96,7 +96,7 @@ p.sub-detail {
 .btn {
   width: fit-content;
   margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .btn a {
   text-decoration: none;
@@ -113,7 +113,7 @@ p.sub-detail {
   padding-left: 3rem;
 }
 .heading {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-weight: 700;
   font-size: 1.1rem;
 }
