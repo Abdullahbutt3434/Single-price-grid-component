@@ -1,0 +1,137 @@
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--Light-Gray);
+}
+.main-row {
+  display: grid;
+  /* grid-template-columns: 0; */
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.row:first-child {
+  padding-left: 3rem;
+  width: 44rem;
+  /* height: 100%; */
+  padding-right: 4rem;
+}
+h2.title {
+  font-size: 1.6rem;
+  color: var(--Cyan);
+  padding-top: 1.5rem;
+  font-weight: 700;
+}
+p.description {
+  margin-top: 2rem;
+  color: var(--Bright-Yellow);
+  font-size: 1.2rem;
+  word-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+.row.grid-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+p.details {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.6rem;
+  color: var(--Grayish-Blue);
+}
+
+.col-1 {
+  background: var(--Cyan);
+  padding-left: 3rem;
+  color: var(--Light-Gray);
+}
+h1.subscription {
+  font-size: 1.1rem;
+  background: var(--Cyan);
+  margin-top: 1.5rem;
+  color: var(--Light-Gray);
+}
+p.price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+span {
+  font-size: 1rem;
+  margin-left: 1rem;
+  vertical-align: 6px;
+  color: hsl(179deg 53% 58%);
+}
+p.sub-detail {
+  font-weight: 400;
+  margin-top: 0.6rem;
+}
+.btn {
+  width: fit-content;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  background: #bfdf32;
+  padding: 1rem 6rem;
+  display: block;
+  border-radius: 6px;
+}
+
+.col-2 {
+  background: #4abebd;
+  color: var(--Light-Gray);
+  padding-left: 3rem;
+}
+.heading {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+ul.info {
+  list-style: none;
+  margin-top: 1.3rem;
+  color: var(--Light-Gray);
+}
+li {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
